@@ -1,0 +1,645 @@
+.r {
+/*	position: absolute;
+	top:200px;
+	left: 300px;
+	width: 300px;
+	height: 300px;
+	background-color: yellow;*/
+}
+
+.n {
+	position: absolute;
+	top:4px;
+	left: -113px;
+}
+
+.g {
+	position: absolute;
+	top:-5px;
+	left: -170px;
+}
+.e {
+	position: absolute;
+	top:-5px;
+	left: -168px;
+}
+
+.s{
+	position: absolute;
+	top:-13px;
+	left: -110px;
+}
+.a {
+	position: absolute;
+	top:4px;
+	left: -38px;
+}
+.rrect {
+	width: 25px;
+  height: 200px;
+  position: absolute;
+  top: 40px;
+  left: 100px; 
+  background-color: rgb(0, 0, 0);
+}
+
+.rcircleoutline {
+	width: 110px;
+  height: 110px;
+  position: absolute;
+  top: 40px;
+  left: 80px;
+  background-color: rgb(0, 0, 0); 
+  border-radius: 50%;
+}
+
+.rwhitecircle {
+	width: 94px;
+  height: 94px;
+  position: absolute;
+  top: 48px;
+  left: 88px;
+  background-color: rgb(255, 255, 255); 
+  border-radius: 50%;
+}
+
+.rwhiterect {
+	width: 100px;
+  height: 130px;
+  position: absolute;
+  top: 40px;
+  left: 30px; 
+  background-color: rgb(255, 255, 255);
+}
+
+.rcircleoutline2 {
+	width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 149px;
+  left: 65px;
+  background-color: rgb(0, 0, 0); 
+  border-radius: 50%;
+}
+
+.rwhitecircle2 {
+	width: 140px;
+  height: 140px;
+  position: absolute;
+  top: 156px;
+  left: 67px;
+  background-color: rgb(255, 255, 255); 
+  border-radius: 50%;
+}
+
+.rwhiterect2 {
+	width: 100px;
+  height: 130px;
+  position: absolute;
+  top: 140px;
+  left: 30px; 
+  background-color: rgb(255, 255, 255);
+}
+
+.rwhiterect3 {
+	width: 200px;
+  height: 130px;
+  position: absolute;
+  top: 240px;
+  left: 50px; 
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.arect1 {
+	width: 25px;
+  height: 200px;
+  position: absolute;
+  top: 43px;
+  left: 288px; 
+  background-color: rgb(0, 0, 0);
+  transform: rotate(14deg);
+}
+
+.arect2 {
+	width: 25px;
+  height: 200px;
+  position: absolute;
+  top: 43px;
+  left: 353px; 
+  background-color: rgb(0, 0, 0);
+  transform: rotate(346deg);
+}
+
+.acircleoutline {
+	width: 110px;
+  height: 110px;
+  position: absolute;
+  top: 80px;
+  left: 280px;
+  background-color: rgb(0, 0, 0); 
+  border-radius: 50%;
+}
+
+.awhitecircle {
+width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 83px;
+  left: 285px;
+  background-color: rgb(255, 255, 255); 
+  border-radius: 50%;
+}
+
+.awhiterect {
+	width: 150px;
+  height: 130px;
+  position: absolute;
+  top: 31px;
+  left: 270px; 
+  background-color: rgb(255, 255, 255);
+}
+
+/*.circlewithboarder {
+	width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 85px;
+  left: 292px;
+  background-color: transparent; 
+  border-radius: 50%;
+  border:4px solid blue;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nrect1 {
+	width: 25px;
+  height: 200px;
+  position: absolute;
+  top: 40px;
+  left: 500px; 
+  background-color: rgb(0, 0, 0);
+}
+
+.nrect2 {
+	width: 25px;
+  height: 200px;
+  position: absolute;
+  top: 40px;
+  left: 612px; 
+  background-color: rgb(0, 0, 0);
+}
+
+.ncircle {
+	width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 40px;
+  left: 418px;
+  background-color: transparent; 
+  border-radius: 50%;
+  border:8px solid black;
+}
+
+.nwhiterect1{
+	width: 100px;
+  height: 220px;
+  position: absolute;
+  top: 39px;
+  left: 418px; 
+  background-color: rgb(255, 255, 255);
+}
+
+.nwhiterect2 {
+	width: 120px;
+  height: 170px;
+  position: absolute;
+  top: 106px;
+  left: 500px; 
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gcircle {
+	width: 169px;
+  height: 200px;
+  position: absolute;
+  top: 35px;
+  left: 730px;
+  background-color: transparent; 
+  border-radius: 50%;
+  border:10px solid black;
+}
+
+.gblackrect {
+	width: 95px;
+  height: 200px;
+  position: absolute;
+  top: 41px;
+  left: 706px; 
+  background-color: rgb(0, 0, 0);
+}
+
+.gwhitecirc {
+	width: 204px;
+  height: 220px;
+  position: absolute;
+  top: 1px;
+  left: 696px;
+  background-color: transparent; 
+  border-radius: 50%;
+  border: 34px solid white;
+}
+
+.gwhitecirctop {
+	width: 64px;
+  height: 64px;
+  position: absolute;
+  top: 30px;
+  left: 683px;
+  background-color: rgb(255, 255, 255); 
+  border-radius: 50%;
+}
+
+.gwhitecircbot {
+	width: 64px;
+  height: 64px;
+  position: absolute;
+  top: 197px;
+  left: 687px;
+  background-color: rgb(255, 255, 255); 
+  border-radius: 50%;
+}
+
+.gwhiterect {
+	width: 87px;
+  height: 70px;
+  position: absolute;
+  top: 89px;
+  left: 870px; 
+  background-color: rgb(255, 255, 255);
+}
+
+.gline {
+	width: 74px;
+  height: 9px;
+  position: absolute;
+  top: 159px;
+  left: 843px; 
+  background-color: rgb(0, 0, 0);
+}
+
+
+p {
+	position: absolute;
+	top:80px;
+	left: -930px;
+	width: 600px;
+	font-family: Futura;
+	line-height: 22px
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.eline1 {
+	width: 25px;
+  height: 201px;
+  position: absolute;
+  top: 43px;
+  left: 950px; 
+  background-color: rgb(0, 0, 0);
+}
+
+.eline2 {
+	width: 88px;
+  height: 10px;
+  position: absolute;
+  top: 139px;
+  left: 953px; 
+  background-color: rgb(0, 0, 0);
+}
+
+.eline3 {
+	width: 110px;
+  height: 10px;
+  position: absolute;
+  top: 43px;
+  left: 952px; 
+  background-color: rgb(0, 0, 0);
+}
+
+.eline4 {
+	width: 110px;
+  height: 10px;
+  position: absolute;
+  top: 234px;
+  left: 953px; 
+  background-color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.soutlinetop {
+	width: 98px;
+  height: 120px;
+  position: absolute;
+  top: 40px;
+  left: 1030px;
+  background-color: transparent; 
+  border-radius: 50%;
+  border:10px solid black;
+}
+
+.soutlinebot {
+	width: 98px;
+  height: 120px;
+  position: absolute;
+  top: 76px;
+  left: -10px;
+  background-color: transparent; 
+  border-radius: 50%;
+  border:10px solid black;
+}
+
+.scircleright {
+	width: 80px;
+  height: 70px;
+  position: absolute;
+  top: -51px;
+  left: 79px;
+  background-color: rgb(255, 255, 255); 
+  border-radius: 50%;
+}
+
+.scircleleft {
+	width: 80px;
+  height: 70px;
+  position: absolute;
+  top: 76px;
+  left: -126px;
+  background-color: rgb(255, 255, 255); 
+  border-radius: 50%;
+}
+
+.soutlinetopw {
+	width: 118px;
+  height: 140px;
+  position: absolute;
+  top: -132px;
+  left: 28px;
+  background-color: transparent; 
+  border-radius: 50%;
+  border:10px solid white;
+}
+
+.soutlinebotw {
+	width: 118px;
+  height: 140px;
+  position: absolute;
+  top: 68px;
+  left: -16px;
+  background-color: transparent; 
+  border-radius: 50%;
+  border:10px solid white;
+}
+
+.srecttop {
+width: 45px;
+  height: 86px;
+  position: absolute;
+  top: 12px;
+  left: 6px; 
+  background-color: rgb(0, 0, 0);
+}
+
+
+.srectbot {
+	width: 45px;
+  height: 86px;
+  position: absolute;
+  top: 42px;
+  left: 63px; 
+  background-color: rgb(0, 0, 0);
+}
+
+.soutline {
+width: 118px;
+  height: 140px;
+  position: absolute;
+  top: -142px;
+  left: -73px;
+  background-color: transparent; 
+  border-radius: 50%;
+  border:10px solid white;	
+}
+
+.soutline2 {
+	width: 118px;
+  height: 140px;
+  position: absolute;
+  top: 77px;
+  left: -11px;
+  background-color: transparent; 
+  border-radius: 50%;
+  border:10px solid white;
+}
+
+.soutline2 {
+	width: 50px;
+  height: 52px;
+  position: absolute;
+  top: 202px;
+  left: 83px;
+  background-color: white; 
+  border-radius: 50%;
+  border:8px solid white;
+}
+
+.soutline3 {
+	width: 50px;
+  height: 52px;
+  position: absolute;
+  top: -19px;
+  left: 4px;
+  background-color: white; 
+  border-radius: 50%;
+  border:8px solid white;
+}
+
+
+.circ {
+	width: 50px;
+  height: 52px;
+  position: absolute;
+  top: -249px;
+  left: -129px;
+  background-color: white; 
+  border-radius: 50%;
+  border:8px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
