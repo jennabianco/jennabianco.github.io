@@ -1,0 +1,103 @@
+.greybox {
+	height: 210px;
+	width: 1468px;
+	top: 0;
+	left: 0;
+	background-color: rgb(192, 192, 192);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+
+.cross {
+	position: absolute;
+	top: 250px;
+	left: 290px;
+}
+
+.headpiece {
+	position: absolute;
+	top: 250px;
+	left: 900px;
+}
+
+.dresses {
+	position: absolute;
+	top: 470px;
+	left: 290px;
+
+}
+
+.celebs {
+	position: absolute;
+	top: 589px;
+	left: 800px;
+}
+
+.met {
+	position: absolute;
+	top: 459px;
+	left: 760px;
+}
+
+.greybox2 {
+	position: absolute;
+	top: 250px;
+	left: 190px;
+}
+
+.greybox3 {
+	position: absolute;
+	top: 470px;
+	left: 190px;
+}
+
+.greybox4 {
+	position: absolute;
+	top: 250px;
+	left: 1150px;
+}
+
+.greybox5 {
+	position: absolute;
+	top: 589px;
+	left: 1150px;
+}
+
+p {
+	width: 1468px;
+	height: 210px;
+	font-size: 57pt;
+	font-family: georgia;
+	text-align: center;
+	top: 0px;
+	left: 0px;
+	color: white;
+	position: absolute;
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
