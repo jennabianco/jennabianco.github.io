@@ -1,0 +1,88 @@
+.greybox {
+	height: 210px;
+	width: 1468px;
+	top: 0;
+	left: 0;
+	background-color: rgb(192, 192, 192);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+
+p {
+	width: 1468px;
+	height: 210px;
+	font-size: 57pt;
+	font-family: georgia;
+	text-align: center;
+	top: 0px;
+	left: 0px;
+	color: white;
+	position: absolute;
+	
+}
+
+.dress1 {
+position: absolute;
+	top: 350px;
+	left: 370px;
+	background-image: url(9.jpg);
+	background-size: cover;
+	width: 720px;
+	height: 1040px;
+
+}
+
+.dress2 {
+position: absolute;
+	top: 1450px;
+	left: 370px;
+	background-image: url(16.jpg);
+	background-size: cover;
+	width: 720px;
+	height: 1040px;
+
+
+}
+
+.dress3 {
+position: absolute;
+	top: 2557px;
+	left: 370px;
+	background-image: url(10.jpg);
+	background-size: cover;
+	width: 720px;
+	height: 1147px;
+}
+
+.dress4 {
+position: absolute;
+	top: 3757px;
+	left: 370px;
+	background-image: url(2.jpg);
+	background-size: cover;
+	width: 720px;
+	height: 1147px;
+}
+
+.dress5 {
+position: absolute;
+	top: 4957px;
+	left: 370px;
+	background-image: url(10.jpg);
+	background-size: cover;
+	width: 720px;
+	height: 1040px;
+}
+
+h1 {
+	width: 1468px;
+	height: 210px;
+	font-size: 57pt;
+	font-family: georgia;
+	text-align: center;
+	top: 180px;
+	left: 0px;
+	color: black;
+	position: absolute;
+}
