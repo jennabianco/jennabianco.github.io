@@ -1,0 +1,79 @@
+.greybox {
+	height: 210px;
+	width: 1468px;
+	top: 0;
+	left: 0;
+	background-color: rgb(192, 192, 192);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+
+p {
+	width: 1468px;
+	height: 210px;
+	font-size: 57pt;
+	font-family: georgia;
+	text-align: center;
+	top: 0px;
+	left: 0px;
+	color: white;
+	position: absolute;
+	
+}
+
+.celeb1 {
+position: absolute;
+	top: 350px;
+	left: 370px;
+	background-image: url(1.jpg);
+	background-size: cover;
+	width: 183px;
+	height: 275px;
+
+}
+
+.celeb2 {
+position: absolute;
+	top: 650px;
+	left: 370px;
+	background-image: url(2.jpg);
+	background-size: cover;
+	width: 183px;
+	height: 276px;
+
+
+}
+
+.celeb3 {
+position: absolute;
+	top: 857px;
+	left: 370px;
+	background-image: url(3.jpg);
+	background-size: cover;
+	width: 196px;
+	height: 257px;
+}
+
+.celeb4 {
+position: absolute;
+	top: 1257px;
+	left: 370px;
+	background-image: url(4.jpg);
+	background-size: cover;
+	width: 208px;
+	height: 242px;
+}
+
+
+h1 {
+	width: 1468px;
+	height: 210px;
+	font-size: 57pt;
+	font-family: georgia;
+	text-align: center;
+	top: 180px;
+	left: 0px;
+	color: black;
+	position: absolute;
+}
