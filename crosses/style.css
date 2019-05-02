@@ -1,0 +1,68 @@
+.greybox {
+	height: 210px;
+	width: 1468px;
+	top: 0;
+	left: 0;
+	background-color: rgb(192, 192, 192);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+
+p {
+	width: 1468px;
+	height: 210px;
+	font-size: 57pt;
+	font-family: georgia;
+	text-align: center;
+	top: 0px;
+	left: 0px;
+	color: white;
+	position: absolute;
+	
+}
+
+.cross1 {
+position: absolute;
+	top: 350px;
+	left: 370px;
+	background-image: url(1.jpg);
+	background-size: cover;
+	width: 720px;
+	height: 902px;
+
+}
+
+.cross2 {
+position: absolute;
+	top: 1350px;
+	left: 370px;
+	background-image: url(5.jpg);
+	background-size: cover;
+	width: 720px;
+	height: 1080px;
+
+
+}
+
+.cross3 {
+position: absolute;
+	top: 2557px;
+	left: 370px;
+	background-image: url(6.jpg);
+	background-size: cover;
+	width: 720px;
+	height: 1109px;
+}
+
+h1 {
+	width: 1468px;
+	height: 210px;
+	font-size: 57pt;
+	font-family: georgia;
+	text-align: center;
+	top: 180px;
+	left: 0px;
+	color: black;
+	position: absolute;
+}
