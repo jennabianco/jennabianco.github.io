@@ -1,0 +1,141 @@
+.greybox {
+	height: 210px;
+	width: 1468px;
+	top: 0;
+	left: 0;
+	background-color: rgb(192, 192, 192);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+.cross:hover {
+	background-image: url(crosses.jpg);
+	cursor: pointer;
+	transition: all 0.25s ease-in-out;
+}
+.cross {
+	position: absolute;
+	top: 250px;
+	left: 290px;
+	background-image: url(crossesbw.jpg);
+	background-size: cover;
+	width: 528px;
+	height: 184px;
+}
+.headpiece:hover {
+	background-image: url(headpiece.jpg);
+	cursor: pointer;
+	transition: all 0.25s ease-in-out;
+}
+
+.headpiece {
+	position: absolute;
+	top: 250px;
+	left: 900px;
+	background-image: url(headpiecebw.jpg);
+	background-size: cover;
+	width: 224px;
+	height: 299px;
+}
+.dresses:hover {
+	background-image: url(dresses.jpg);
+	cursor: pointer;
+	transition: all 0.25s ease-in-out;
+}
+
+.dresses {
+	position: absolute;
+	top: 470px;
+	left: 290px;
+	background-image: url(dressesbw.jpg);
+	background-size: cover;
+	width: 434px;
+	height: 282px;
+
+}
+.celebs:hover {
+	background-image: url(celebs.jpg);
+	cursor: pointer;
+	transition: all 0.25s ease-in-out;
+}
+.celebs {
+	position: absolute;
+	top: 589px;
+	left: 800px;
+	background-image: url(celebsbw.jpg);
+	background-size: cover;
+	width: 324px;
+	height: 162px;
+}
+
+.met {
+	position: absolute;
+	top: 459px;
+	left: 760px;
+	background-image: url(met.jpg);
+	background-size: cover;
+	width: 101px;
+	height: 101px;
+}
+
+.greybox2 {
+	position: absolute;
+	top: 250px;
+	left: 190px;
+}
+
+.greybox3 {
+	position: absolute;
+	top: 470px;
+	left: 190px;
+}
+
+.greybox4 {
+	position: absolute;
+	top: 250px;
+	left: 1150px;
+}
+
+.greybox5 {
+	position: absolute;
+	top: 589px;
+	left: 1150px;
+}
+
+p {
+	width: 1468px;
+	height: 210px;
+	font-size: 57pt;
+	font-family: georgia;
+	text-align: center;
+	top: 0px;
+	left: 0px;
+	color: white;
+	position: absolute;
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

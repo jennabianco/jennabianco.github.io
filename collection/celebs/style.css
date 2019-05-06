@@ -1,0 +1,185 @@
+.greybox {
+	height: 210px;
+	width: 1468px;
+	top: 0;
+	left: 0;
+	background-color: rgb(192, 192, 192);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+
+
+
+.celeb1 {
+position: absolute;
+	top: 350px;
+	left: 500px;
+	background-image: url(1.jpg);
+	background-size: cover;
+	width: 183px;
+	height: 275px;
+
+}
+
+.celeb2 {
+position: absolute;
+	top: 350px;
+	left: 780px;
+	background-image: url(2.jpg);
+	background-size: cover;
+	width: 183px;
+	height: 276px;
+
+
+}
+
+.celeb3 {
+position: absolute;
+	top: 360px;
+	left: 200px;
+	background-image: url(3.jpg);
+	background-size: cover;
+	width: 196px;
+	height: 257px;
+}
+
+.celeb4 {
+position: absolute;
+	top: 370px;
+	left: 1080px;
+	background-image: url(4.jpg);
+	background-size: cover;
+	width: 208px;
+	height: 242px;
+}
+
+
+
+.homepage {
+	position: absolute;
+	width: 500px;
+	height: 100px;
+	top: 900px;
+	left: 490px;
+	background-color: black;
+
+}
+h1 {
+	width: 1468px;
+	height: 210px;
+	font-size: 57pt;
+	font-family: georgia;
+	text-align: center;
+	top: 0px;
+	left: 0px;
+	color: white;
+	position: absolute;
+
+}
+
+h2 {
+	width: 1468px;
+	height: 210px;
+	font-size: 57pt;
+	font-family: georgia;
+	text-align: center;
+	top: 180px;
+	left: 0px;
+	color: black;
+	position: absolute;
+}
+
+p {
+	position: absolute;
+	font-size: 60px;
+	width: 500px;
+	height: 200px;
+	top: 865px;
+	left: 570px;
+	font-family: georgia;
+	color: white;
+}
+
+.box1 {
+position: absolute;
+top: 640px;
+left: 120px;
+width: 350px;
+height:100px;
+background-image: url(info.jpg);
+background-size: cover;
+
+}
+
+.text1 {
+	position: absolute;
+	top: 500px;
+	left: 1px;
+	width: 10px
+	height:400px;
+	font-size: 20px;
+	font-family: georgia;
+	color:red;
+	opacity: 0
+
+}
+
+.text2 {
+	position: absolute;
+	top: 1030px;
+	left: 500px;
+	width: 500px
+	height:100px;
+	font-size: 20px;
+	font-family: georgia;
+	color:red;
+	opacity: 0
+}
+
+.text3 {
+	position: absolute;
+	top: 1030px;
+	left: 500px;
+	width: 500px
+	height:100px;
+	font-size: 20px;
+	font-family: georgia;
+	color:red;
+	opacity: 0
+}
+
+
+.box2{
+	position: absolute;
+top: 640px;
+left: 390px;
+width: 350px;
+height:100px;
+background-image: url(info.jpg);
+background-size: cover;
+}
+
+.show {
+	opacity: 1
+}
+
+.box3 {
+	position: absolute;
+top: 640px;
+left: 660px;
+width: 350px;
+height:100px;
+background-image: url(info.jpg);
+background-size: cover;
+}
+
+.box4 {
+	position: absolute;
+top: 640px;
+left: 990px;
+width: 350px;
+height:100px;
+background-image: url(info.jpg);
+background-size: cover;
+}
