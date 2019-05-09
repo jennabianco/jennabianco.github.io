@@ -85,41 +85,49 @@ background-image: url(info.jpg);
 background-size: cover;
 
 }
+.show {
+	opacity: 1;
+}
+
+.black {
+  color: rgb(0, 0, 0);
+}
+
 
 .text1 {
 	position: absolute;
 	top: 1030px;
-	left: 500px;
+	left: 547px;
 	width: 500px
 	height:100px;
 	font-size: 20px;
 	font-family: georgia;
-	color:red;
-	opacity: 0
+	color:black;
+	opacity: 0;
 
 }
 
 .text2 {
 	position: absolute;
 	top: 1030px;
-	left: 500px;
+	left: 1000px;
 	width: 500px
 	height:100px;
 	font-size: 20px;
 	font-family: georgia;
-	color:red;
+	color:black;
 	opacity: 0
 }
 
 .text3 {
 	position: absolute;
 	top: 1030px;
-	left: 500px;
+	left: 100px;
 	width: 500px
 	height:100px;
 	font-size: 20px;
 	font-family: georgia;
-	color:red;
+	color:black;
 	opacity: 0
 }
 .box2{

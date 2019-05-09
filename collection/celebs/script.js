@@ -5,10 +5,12 @@ $(document).ready(function() {
   });
 
   $(".box1").mouseleave(function() {
-    $(".box1").removeClass("red");
+    $(".box1").removeClass("black");
     $(".text1").removeClass("show black");
   });
 });
+
+
 
 
 $(document).ready(function() {
@@ -18,10 +20,11 @@ $(document).ready(function() {
   });
 
   $(".box2").mouseleave(function() {
-    $(".box2").removeClass("red");
+    $(".box2").removeClass("black");
     $(".text2").removeClass("show black");
   });
 });
+
 
 $(document).ready(function() {
   $(".box3").mouseenter(function() {
@@ -30,7 +33,20 @@ $(document).ready(function() {
   });
 
   $(".box3").mouseleave(function() {
-    $(".box3").removeClass("red");
+    $(".box3").removeClass("black");
     $(".text3").removeClass("show black");
+  });
+});
+
+
+$(document).ready(function() {
+  $(".box4").mouseenter(function() {
+    $(".box4").addClass("black");
+    $(".text4").addClass("show black");
+  });
+
+  $(".box4").mouseleave(function() {
+    $(".box4").removeClass("black");
+    $(".text4").removeClass("show black");
   });
 });
