@@ -1,0 +1,100 @@
+body { 
+  margin: 0;
+  padding: 0;
+  }
+
+.hour {
+	position: absolute;
+  top: 10vw;
+  left: 10vw;
+  width: 20vw;
+  height: 20vw;
+  animation-name: animationA;
+  border-radius: 50%;
+  animation-duration: 1800s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;  
+}
+.minute {
+  position: absolute;
+  top: 10vw;
+  left: 40vw;
+  width: 20vw;
+  height: 20vw;
+  animation-name: animationA;
+  border-radius: 50%;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;  
+}
+
+.second {
+  position: absolute;
+  top: 10vw;
+  left: 70vw;
+  width: 20vw;
+  height: 20vw;
+  animation-name: animationA;
+  border-radius: 50%;
+  animation-duration: .5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes animationA {
+	  0% {
+    background-color: rgb(255, 255, 0);
+  }
+  100% {
+    background-color: rgb(0, 20, 40);
+  }
+}
+
+.hour2 {
+  position: absolute;
+  top: 20vw;
+  left: 10vw;
+  width: 20vw;
+  height: 20vw;
+  background-color: white;
+  animation-name: animationB;
+  animation-duration: 1800s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;  
+}
+
+.minute2 {
+  position: absolute;
+  top: 20vw;
+  left: 40vw;
+  width: 20vw;
+  height: 20vw;
+  background-color: white;
+  animation-name: animationB;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;  
+}
+
+.second2 {
+	
+  position: absolute;
+  top: 20vw;
+  left: 70vw;
+  width: 20vw;
+  height: 20vw;
+  background-color: white;
+  animation-name: animationB;
+  animation-duration: .5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes animationB {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
