@@ -19,12 +19,16 @@ animation-name: colorchange;
 .sun {
 	position: absolute;
 	background-color: rgb(249,213,104);
-  top: 10px;
-  left: 10px;
+ top: 500px;
+ left: 50px;
   width: 70px;
   height: 70px;
   
   border-radius: 50%;
+
+  animation-name: sun;
+  animation-duration: 50s;
+  animation-timing-function: linear;
  
 }
 
@@ -34,13 +38,17 @@ animation-name: colorchange;
   }
   100% {
     background-color: rgb182,211,239);
+    animation-iteration-count: infinite;  
 }
 
 @keyframes sun {
- 0% {
+ 0% { top: 500px;
+ 	left: 50px;
     
   }
-  100% {
+  25% {
+  	top: 10px;
+  	left: 500px;
     
 }
 
