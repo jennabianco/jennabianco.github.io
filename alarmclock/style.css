@@ -1,0 +1,47 @@
+body {
+background-color: rgb(182,211,239);
+animation-name: colorchange;
+ animation-duration: 50s;
+}
+
+.city {
+	position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("skyline.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.sun {
+	position: absolute;
+	background-color: rgb(249,213,104);
+  top: 10px;
+  left: 10px;
+  width: 70px;
+  height: 70px;
+  
+  border-radius: 50%;
+ 
+}
+
+@keyframes colorchange {
+	0% {
+    background-color: rgb(0, 20, 40);(
+  }
+  100% {
+    background-color: rgb182,211,239);
+}
+
+@keyframes sun {
+ 0% {
+    
+  }
+  100% {
+    
+}
+
+
