@@ -3,6 +3,8 @@ $(document).ready(function() {
     $(".alarmsun").addClass("alarm");
     $(".alarmcity").addClass("alarm");
     $(".alarmwords").addClass("alarm");
+    $(".sun").addClass("alarm");
+    $(".plane").addClass("alarm");
 
-  }, 50000);
+  }, 30000);
 });

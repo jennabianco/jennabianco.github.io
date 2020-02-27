@@ -47,7 +47,12 @@ animation-name: colorchange;
   animation-name: sun;
   animation-duration: 50s;
   animation-timing-function: linear;
+  display: block;
  
+}
+
+.sun.alarm {
+  display: none;
 }
 
 .plane {
@@ -65,6 +70,11 @@ animation-name: colorchange;
   animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+   display: block;
+}
+
+.plane.alarm {
+  display: none;
 }
 
 .alarmsun {
@@ -85,6 +95,7 @@ margin: auto;
     animation-duration: 5s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+
     
 }
 .alarmsun.alarm {
@@ -101,6 +112,7 @@ display: block;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+
 
 
 }
@@ -146,13 +158,17 @@ margin: auto;
 @keyframes sun {
  0% { top: 500px;
  	left: 50px;
+  
 
     
   }
   100% {
   	top: 80px;
   	left: 400px;
+    
     }
+
+
 }
 
 
