@@ -4,5 +4,5 @@ $(document).ready(function() {
     $(".alarmcity").addClass("alarm");
     $(".alarmwords").addClass("alarm");
 
-  }, 3000);
+  }, 50000);
 });
