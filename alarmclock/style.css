@@ -16,6 +16,24 @@ animation-name: colorchange;
   background-position: center center;
 }
 
+.clouds {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("clouds.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  opacity: 60%;
+  max-width: 1000px;
+  max-height: 1100px;
+  animation-name: clouds;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
 .sun {
 	position: absolute;
 	background-color: rgb(249,213,104);
@@ -32,24 +50,126 @@ animation-name: colorchange;
  
 }
 
+.plane {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("plane.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 100%;
+  max-width: 1000px;
+  max-height: 1000px;
+  animation-name: plane;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.alarmsun {
+   position: absolute;
+   background-image: url(sun.png);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+    display: none;
+    
+}
+.alarmsun.alarm {
+display: block;
+}
+.alarmcity {
+   position: absolute;
+   background-image: url(skyline2.png);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    display: none;
+}
+
+.alarmcity.alarm {
+  display: block;
+}
+.alarmwords {
+  position: absolute;
+   background-image: url(words.png);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    display: none;
+}
+
+.alarmwords.alarm {
+  display: block;
+}
+
+
+
+
+
 @keyframes colorchange {
 	0% {
-    background-color: rgb(0, 20, 40);(
+    background-color: rgb(0, 20, 40);
   }
   100% {
-    background-color: rgb182,211,239);
-    animation-iteration-count: infinite;  
+    background-color: rgb(182,211,239);
+    animation-iteration-count: infinite; 
+     }
+
 }
 
 @keyframes sun {
  0% { top: 500px;
  	left: 50px;
+
     
   }
-  25% {
-  	top: 10px;
-  	left: 500px;
-    
+  100% {
+  	top: 80px;
+  	left: 400px;
+    }
 }
+
+
+@keyframes clouds {
+   0% { top: 100px;
+  left: 0px;
+
+    
+  }
+  100% {
+    top: 100px;
+    left: 900px;
+    }
+}
+
+
+@keyframes plane {
+   0% { top: -10px;
+        left: 0px;
+
+    
+  }
+  100% {
+    top: -10px;
+    left: 900px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
